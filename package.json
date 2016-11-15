@@ -2,9 +2,13 @@
   "name": "youtube-embed-video",
   "version": "1.0.0",
   "description": "Youtube embed video component",
-  "main": "index.js",
+  "main": "dist/youtube.js",
   "author": "Tien Do <tiendq@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "babel",
+    "prepublish": "npm run build"
+  },
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2"
