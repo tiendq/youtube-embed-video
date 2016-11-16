@@ -20,5 +20,6 @@ module.exports = {
     "react" // eslint-plugin-react
   ],
   "rules": {
+    "no-unused-vars": 1
   }
 };
