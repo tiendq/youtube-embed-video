@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Youtube embed video component",
   "main": "dist/youtube.js",
+  "repository": {
+    "url": "https://github.com/Tiendq/youtube-embed-video.git",
+    "type": "git"
+  },
   "author": "Tien Do <tiendq@gmail.com>",
   "license": "MIT",
   "scripts": {

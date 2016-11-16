@@ -17,8 +17,8 @@ module.exports = {
   output: {
     filename: "[name].js",
     path: "./dist",
-    library: "youtube",
-    libraryTarget: "commonjs"
+    library: "YoutubeEmbedVideo",
+    libraryTarget: "commonjs2"
   },
   externals: {
     "react": "react",
