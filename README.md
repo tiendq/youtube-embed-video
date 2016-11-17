@@ -20,7 +20,21 @@ Above code will load a Youtube video from [LEGO® Red Can Break It Down](https:/
 Props are same as Youtube options for embeding a video.
 
 #### `videoId`
-Youtube video ID parameter, it's `RnDC9MXSqCY` in this Youtube link (https://www.youtube.com/watch?v=RnDC9MXSqCY)
+Youtube video ID parameter, it's `RnDC9MXSqCY` in this Youtube link (https://www.youtube.com/watch?v=RnDC9MXSqCY). `Required`.
+#### `autoplay`
+Make an embeded video play automatically. Default: `false`
+#### `suggestions`
+Show suggested videos when the video finishes. Default: `true`
+#### `controls`
+Show player controls. Default: `true`
+#### `showInfo`
+Show video title and player actions. Default: `true`
+#### `enhancedPrivacy`
+Enable privacy-enhanced mode. Default: `false`
+#### `width`
+Player width in px. Default: `560`
+#### `height`
+Player height in px. Default: `315`
 
 ## Examples
 1. Run `yarn start` from `examples` folder
