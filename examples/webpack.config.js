@@ -11,5 +11,8 @@ module.exports = {
     filename: "app.js",
     path: "./dist",
     publicPath: "/dist"
+  },
+  resolve: {
+    fallback: "/usr/local/lib/node_modules"
   }
 };

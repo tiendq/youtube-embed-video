@@ -20,7 +20,7 @@ Above code will load a Youtube video from [LEGO® Red Can Break It Down](https:/
 Props are same as Youtube options for embeding a video.
 
 #### `videoId`
-Youtube video ID parameter, it's `RnDC9MXSqCY` in this Youtube link (https://www.youtube.com/watch?v=RnDC9MXSqCY). `Required`.
+Youtube video ID parameter, it's `RnDC9MXSqCY` in this Youtube link [](https://www.youtube.com/watch?v=RnDC9MXSqCY). `Required`.
 #### `autoplay`
 Make an embeded video play automatically. Default: `false`
 #### `suggestions`

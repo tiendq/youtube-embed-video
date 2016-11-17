@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import YoutubeEmbedVideo from "../dist/youtube";
+import YoutubeEmbedVideo from "../dist/youtube"; // "youtube-embed-video"
 
-ReactDOM.render(<YoutubeEmbedVideo videoId="RnDC9MXSqCY" />, document.getElementById("app"));
+ReactDOM.render(<YoutubeEmbedVideo videoId="RnDC9MXSqCY" suggestions={false} />, document.getElementById("app"));
