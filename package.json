@@ -1,6 +1,6 @@
 {
   "name": "youtube-embed-video",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Youtube embed video component",
   "main": "dist/youtube.js",
   "repository": {

@@ -31,3 +31,13 @@ test("Largest size without suggestions and media controls", () => {
 
   expect(tree).toMatchSnapshot();
 });
+
+test("Medium size", () => {
+  const component = renderer.create(
+    <YoutubeEmbedVideo videoId="RnDC9MXSqCY" size="medium" />
+  );
+
+  let tree = component.toJSON();
+
+  expect(tree).toMatchSnapshot();
+});

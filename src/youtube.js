@@ -1,10 +1,36 @@
 import React from "react";
 
+// Predefined size options from Youtube.
+const videoSizes = new Map([
+  [
+    "small", {
+      width: 560,
+      height: 315
+    }
+  ], [
+    "medium", {
+      width: 640,
+      height: 360
+    }
+  ], [
+    "large", {
+      width: 853,
+      height: 480
+    }
+  ], [
+    "largest", {
+      width: 1280,
+      height: 720
+    }
+  ]
+]);
+
 function YoutubeEmbedVideo(props) {
-  let url = getFullVideoUrl(props);
+  let url = getFullVideoUrl(props),
+    { width, height } = getVideoSize(props.width, props.height, props.size);
 
   return (
-    <iframe width={props.width} height={props.height} src={url} frameBorder="0" allowFullScreen={true}></iframe>
+    <iframe width={width} height={height} src={url} frameBorder="0" allowFullScreen={true}></iframe>
   );
 }
 
@@ -31,10 +57,21 @@ function getFullVideoUrl(props) {
   return params.join("");
 }
 
+function getVideoSize(width, height, size) {
+  if (size && videoSizes.has(size.toLowerCase()))
+    return videoSizes.get(size.toLowerCase());
+  else
+    return {
+      width,
+      height
+    }
+}
+
 YoutubeEmbedVideo.propTypes = {
   videoId: React.PropTypes.string.isRequired,
   width: React.PropTypes.number,
   height: React.PropTypes.number,
+  size: React.PropTypes.string,
   autoplay: React.PropTypes.bool,
   enhancedPrivacy: React.PropTypes.bool,
   suggestions: React.PropTypes.bool,
@@ -45,6 +82,7 @@ YoutubeEmbedVideo.propTypes = {
 YoutubeEmbedVideo.defaultProps = {
   width: 560,
   height: 315,
+  size: "",
   autoplay: false,
   enhancedPrivacy: false,
   suggestions: true,

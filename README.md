@@ -35,6 +35,8 @@ Enable privacy-enhanced mode. Default: `false`
 Player width in px. Default: `560`
 #### `height`
 Player height in px. Default: `315`
+#### `size`
+Pre-defined video sizes same as Youtube options. `size` will override `width` and `height` values. Available size values are `small`, `medium`, `large`, and `largest`.
 
 ## Examples
 1. Run `yarn start` from `examples` folder
