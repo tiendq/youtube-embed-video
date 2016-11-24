@@ -43,8 +43,8 @@ Pre-defined video sizes same as Youtube options. `size` will override `width` an
 2. Visit `http://localhost:8080`
 
 ## TO DO
-- Predefined video sizes.
-- Delay load video.
+- ~~Predefined video sizes~~
+- Delay load video
 
 Copyright (c) 2016 Tien Do
 
