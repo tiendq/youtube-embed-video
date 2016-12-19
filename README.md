@@ -17,7 +17,7 @@ ReactDOM.render(<YoutubeEmbedVideo videoId="RnDC9MXSqCY" suggestions={false} />,
 Above code will load a Youtube video from [LEGO® Red Can Break It Down](https://www.youtube.com/watch?v=RnDC9MXSqCY).
 
 ### Properties
-Props are same as Youtube options for embeding a video.
+Props are same as Youtube options for embedding a video.
 
 #### `videoId`
 Youtube video ID parameter, it's `RnDC9MXSqCY` in this Youtube [link](https://www.youtube.com/watch?v=RnDC9MXSqCY). `Required`.
@@ -43,7 +43,7 @@ Pre-defined video sizes same as Youtube options. `size` will override `width` an
 2. Visit `http://localhost:8080`
 
 ## TO DO
-- Predefined video sizes.
+- ~~Predefined video sizes.~~
 - Delay load video.
 
 Copyright (c) 2016 Tien Do
