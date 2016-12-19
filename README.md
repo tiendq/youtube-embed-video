@@ -22,7 +22,7 @@ Props are same as Youtube options for embedding a video.
 #### `videoId`
 Youtube video ID parameter, it's `RnDC9MXSqCY` in this Youtube [link](https://www.youtube.com/watch?v=RnDC9MXSqCY). `Required`.
 #### `autoplay`
-Make an embeded video play automatically. Default: `false`
+Make an embedded video play automatically. Default: `false`
 #### `suggestions`
 Show suggested videos when the video finishes. Default: `true`
 #### `controls`
@@ -43,8 +43,8 @@ Pre-defined video sizes same as Youtube options. `size` will override `width` an
 2. Visit `http://localhost:8080`
 
 ## TO DO
-- ~~Predefined video sizes.~~
-- Delay load video.
+- ~~Predefined video sizes~~
+- Delay load video
 
 Copyright (c) 2016 Tien Do
 

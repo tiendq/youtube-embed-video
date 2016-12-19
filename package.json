@@ -10,7 +10,7 @@
   "author": "Tien Do <tiendq@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack -p",
+    "build": "NODE_ENV=production webpack -p",
     "test": "jest --watch",
     "watch": "webpack --progress --colors --watch"
   },
