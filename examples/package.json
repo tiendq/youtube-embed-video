@@ -2,7 +2,7 @@
   "name": "youtube-embed-video-examples",
   "version": "1.0.0",
   "description": "Examples of Youtube embed video component",
-  "main": "build/app.js",
+  "main": "dist/app.js",
   "author": "Tien Do <tiendq@gmail.com>",
   "license": "MIT",
   "scripts": {

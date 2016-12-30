@@ -10,14 +10,16 @@ module.exports = {
     "eslint:recommended", // eslint
     "plugin:import/errors", // eslint-plugin-import
     "plugin:import/warnings", // eslint-plugin-import
-    "plugin:react/recommended" // eslint-plugin-react
+    "plugin:react/recommended", // eslint-plugin-react
+    "plugin:jsx-a11y/recommended" // eslint-plugin-jsx-a11y
   ],
   "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module"
   },
   "plugins": [
-    "react" // eslint-plugin-react
+    "react", // eslint-plugin-react
+    "jsx-a11y" // eslint-plugin-jsx-a11y
   ],
   "rules": {
     "no-unused-vars": 1

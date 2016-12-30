@@ -1,35 +1,42 @@
 {
   "name": "youtube-embed-video",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Youtube embed video component",
   "main": "dist/youtube.js",
   "repository": {
     "url": "https://github.com/Tiendq/youtube-embed-video.git",
     "type": "git"
   },
+  "homepage": "https://github.com/Tiendq/youtube-embed-video",
   "author": "Tien Do <tiendq@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "youtube",
+    "video"
+  ],
   "scripts": {
-    "build": "NODE_ENV=production webpack -p",
+    "build": "webpack -p",
     "test": "jest --watch",
     "watch": "webpack --progress --colors --watch"
   },
-  "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.0",
     "babel-jest": "^17.0.2",
     "babel-loader": "^6.2.7",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "eslint": "^3.10.1",
     "eslint-loader": "^1.6.1",
     "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.7.1",
     "jest": "^17.0.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
     "react-test-renderer": "^15.3.2",
     "webpack": "^1.13.3"
   }
