@@ -1,7 +1,7 @@
 # YoutubeEmbedVideo
 React component to embed Youtube video on web page.
 
-v1.0.3
+v1.1.0
 
 ## Usage
 Simply install and import component like below code:

@@ -19,6 +19,7 @@ module.exports = {
     libraryTarget: "commonjs2"
   },
   externals: {
+    "prop-types": "prop-types",
     "react": "react",
     "react-dom": "react-dom"
   },

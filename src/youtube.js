@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 // Predefined size options from Youtube.
 const videoSizes = new Map([
@@ -49,6 +50,7 @@ function YoutubeEmbedVideo(props) {
       src={url}
       frameBorder="0"
       allowFullScreen={true}
+      title="Youtube Embed Video"
       {...rest}
     />
   );
@@ -88,15 +90,15 @@ function getVideoSize(width, height, size) {
 }
 
 YoutubeEmbedVideo.propTypes = {
-  videoId: React.PropTypes.string.isRequired,
-  width: React.PropTypes.number,
-  height: React.PropTypes.number,
-  size: React.PropTypes.string,
-  autoplay: React.PropTypes.bool,
-  enhancedPrivacy: React.PropTypes.bool,
-  suggestions: React.PropTypes.bool,
-  controls: React.PropTypes.bool,
-  showInfo: React.PropTypes.bool
+  videoId: PropTypes.string.isRequired,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  size: PropTypes.string,
+  autoplay: PropTypes.bool,
+  enhancedPrivacy: PropTypes.bool,
+  suggestions: PropTypes.bool,
+  controls: PropTypes.bool,
+  showInfo: PropTypes.bool
 };
 
 YoutubeEmbedVideo.defaultProps = {
