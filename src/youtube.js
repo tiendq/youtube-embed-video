@@ -26,25 +26,26 @@ const videoSizes = new Map([
 ]);
 
 function YoutubeEmbedVideo(props) {
-  const {
+  let {
     videoId,
-    width,
-    height,
-    size,
     autoplay,
-    enhancedPrivacy,
     suggestions,
     controls,
     showInfo,
+    enhancedPrivacy,
+    width,
+    height,
+    size,
     ...rest
   } = props;
-  let url = getFullVideoUrl(props),
-    { calculatedWidth, calculatedHeight } = getVideoSize(width, height, size);
+
+  let url = getFullVideoUrl(props);
+  let calculatedSize = getVideoSize(width, height, size);
 
   return (
     <iframe
-      width={calculatedWidth}
-      height={calculatedHeight}
+      width={calculatedSize.width}
+      height={calculatedSize.height}
       src={url}
       frameBorder="0"
       allowFullScreen={true}
@@ -79,11 +80,11 @@ function getFullVideoUrl(props) {
 function getVideoSize(width, height, size) {
   if (size && videoSizes.has(size.toLowerCase()))
     return videoSizes.get(size.toLowerCase());
-  else
-    return {
-      width,
-      height
-    }
+
+  return {
+    width,
+    height
+  }
 }
 
 YoutubeEmbedVideo.propTypes = {
