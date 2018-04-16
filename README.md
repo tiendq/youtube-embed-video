@@ -46,6 +46,6 @@ Pre-defined video sizes same as Youtube options. `size` will override `width` an
 - ~~Predefined video sizes~~
 - Delay load video
 
-Copyright (c) 2016 Tien Do
+Copyright ©2018 Tien Do.
 
-MIT License
+MIT License.
