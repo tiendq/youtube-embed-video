@@ -40,7 +40,7 @@ function YoutubeEmbedVideo(props) {
     ...rest
   } = props;
 
-  let url = getFullVideoUrl(props);
+  let url = getFullVideoUrl(videoId, autoplay, enhancedPrivacy, suggestions, controls, showInfo);
   let calculatedSize = getVideoSize(width, height, size);
 
   return (
@@ -56,24 +56,24 @@ function YoutubeEmbedVideo(props) {
   );
 }
 
-function getFullVideoUrl(props) {
+function getFullVideoUrl(videoId, autoplay, enhancedPrivacy, suggestions, controls, showInfo) {
   let params = [];
 
-  if (props.enhancedPrivacy)
+  if (enhancedPrivacy)
     params.push("https://www.youtube-nocookie.com/embed/");
   else
     params.push("https://www.youtube.com/embed/");
 
-  params.push(props.videoId);
-  params.push(props.autoplay ? "?autoplay=1" : "?autoplay=0");
+  params.push(videoId);
+  params.push(autoplay ? "?autoplay=1" : "?autoplay=0");
 
-  if (!props.suggestions)
+  if (!suggestions)
     params.push("&rel=0");
 
-  if (!props.controls)
+  if (!controls)
     params.push("&controls=0");
 
-  if (!props.showInfo)
+  if (!showInfo)
     params.push("&showinfo=0");
 
   return params.join("");
