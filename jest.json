@@ -1,5 +1,4 @@
 {
-  "testEnvironment": "node",
   "coverageThreshold": {
     "global": {
       "branches": 90,
