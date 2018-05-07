@@ -1,35 +1,45 @@
-exports[`test Default settings, need only video ID 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default settings, need only video ID 1`] = `
 <iframe
   allowFullScreen={true}
   frameBorder="0"
   height={315}
   src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0"
-  width={560} />
+  title="Youtube Embed Video"
+  width={560}
+/>
 `;
 
-exports[`test Enhanced privacy mode and autoplay 1`] = `
+exports[`Enhanced privacy mode and autoplay 1`] = `
 <iframe
   allowFullScreen={true}
   frameBorder="0"
   height={315}
   src="https://www.youtube-nocookie.com/embed/RnDC9MXSqCY?autoplay=1"
-  width={560} />
+  title="Youtube Embed Video"
+  width={560}
+/>
 `;
 
-exports[`test Largest size without suggestions and media controls 1`] = `
+exports[`Largest size without suggestions and media controls 1`] = `
 <iframe
   allowFullScreen={true}
   frameBorder="0"
   height={720}
   src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0&rel=0&controls=0"
-  width={1280} />
+  title="Youtube Embed Video"
+  width={1280}
+/>
 `;
 
-exports[`test Medium size 1`] = `
+exports[`Medium size 1`] = `
 <iframe
   allowFullScreen={true}
   frameBorder="0"
   height={360}
   src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0"
-  width={640} />
+  title="Youtube Embed Video"
+  width={640}
+/>
 `;
