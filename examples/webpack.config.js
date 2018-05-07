@@ -1,18 +1,22 @@
+let path = require('path');
+
 module.exports = {
   module: {
-    loaders: [{
+    rules: [{
       test: /\.js$/,
-      loader: 'babel',
+      use: 'babel-loader',
       exclude: /node_modules/
     }]
   },
   entry: "./app.js",
   output: {
     filename: "app.js",
-    path: "./dist",
+    path: path.resolve(__dirname, 'dist'),
     publicPath: "/dist"
   },
   resolve: {
-    fallback: "/usr/local/lib/node_modules"
+    modules: [
+     "node_modules"
+   ]
   }
 };
