@@ -1,6 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Default settings, need only video ID 1`] = `
+exports[`Customer style and class 1`] = `
+<iframe
+  allowFullScreen={true}
+  className="video-player"
+  frameBorder="0"
+  height={315}
+  src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0"
+  style={
+    Object {
+      "borderColor": "#00c775",
+      "borderStyle": "solid",
+      "borderWidth": 10,
+    }
+  }
+  title="Youtube Embed Video"
+  width={560}
+/>
+`;
+
+exports[`Default settings, only videoId is required 1`] = `
 <iframe
   allowFullScreen={true}
   frameBorder="0"
@@ -33,12 +52,12 @@ exports[`Largest size without suggestions and media controls 1`] = `
 />
 `;
 
-exports[`Medium size 1`] = `
+exports[`Medium size and no show info 1`] = `
 <iframe
   allowFullScreen={true}
   frameBorder="0"
   height={360}
-  src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0"
+  src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0&showinfo=0"
   title="Youtube Embed Video"
   width={640}
 />
