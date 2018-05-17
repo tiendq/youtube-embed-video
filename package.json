@@ -18,6 +18,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "test": "jest --config=jest.json --coverage",
+    "test:watch": "jest --config=jest.json --watch",
     "watch": "webpack --mode=development --progress --colors --watch"
   },
   "dependencies": {},
@@ -39,6 +40,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-test-renderer": "^16.3.2",
+    "react-testing-library": "^3.1.0",
     "webpack": "^4.7.0",
     "webpack-cli": "^2.1.3"
   }

@@ -2,63 +2,57 @@
 
 exports[`Customer style and class 1`] = `
 <iframe
-  allowFullScreen={true}
-  className="video-player"
-  frameBorder="0"
-  height={315}
+  allowfullscreen=""
+  class="video-player"
+  frameborder="0"
+  height="315"
   src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0"
-  style={
-    Object {
-      "borderColor": "#00c775",
-      "borderStyle": "solid",
-      "borderWidth": 10,
-    }
-  }
+  style="border-width: 10px; border-color: #00c775; border-style: solid;"
   title="Youtube Embed Video"
-  width={560}
+  width="560"
 />
 `;
 
 exports[`Default settings, only videoId is required 1`] = `
 <iframe
-  allowFullScreen={true}
-  frameBorder="0"
-  height={315}
+  allowfullscreen=""
+  frameborder="0"
+  height="315"
   src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0"
   title="Youtube Embed Video"
-  width={560}
+  width="560"
 />
 `;
 
 exports[`Enhanced privacy mode and autoplay 1`] = `
 <iframe
-  allowFullScreen={true}
-  frameBorder="0"
-  height={315}
+  allowfullscreen=""
+  frameborder="0"
+  height="315"
   src="https://www.youtube-nocookie.com/embed/RnDC9MXSqCY?autoplay=1"
   title="Youtube Embed Video"
-  width={560}
+  width="560"
 />
 `;
 
 exports[`Largest size without suggestions and media controls 1`] = `
 <iframe
-  allowFullScreen={true}
-  frameBorder="0"
-  height={720}
+  allowfullscreen=""
+  frameborder="0"
+  height="720"
   src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0&rel=0&controls=0"
   title="Youtube Embed Video"
-  width={1280}
+  width="1280"
 />
 `;
 
 exports[`Medium size and no show info 1`] = `
 <iframe
-  allowFullScreen={true}
-  frameBorder="0"
-  height={360}
+  allowfullscreen=""
+  frameborder="0"
+  height="360"
   src="https://www.youtube.com/embed/RnDC9MXSqCY?autoplay=0&showinfo=0"
   title="Youtube Embed Video"
-  width={640}
+  width="640"
 />
 `;
