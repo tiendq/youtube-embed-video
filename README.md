@@ -1,7 +1,7 @@
 # YoutubeEmbedVideo
 React component to embed Youtube video on web page.
 
-v1.1.0 [![Build Status](https://travis-ci.com/Tiendq/youtube-embed-video.svg?branch=master)](https://travis-ci.com/Tiendq/youtube-embed-video)[![Greenkeeper badge](https://badges.greenkeeper.io/Tiendq/youtube-embed-video.svg)](https://greenkeeper.io/)
+v1.2.1 [![Build Status](https://travis-ci.com/Tiendq/youtube-embed-video.svg?branch=master)](https://travis-ci.com/Tiendq/youtube-embed-video)[![Greenkeeper badge](https://badges.greenkeeper.io/Tiendq/youtube-embed-video.svg)](https://greenkeeper.io/)
 
 ## Usage
 Simply install and import component like below code:
@@ -48,6 +48,6 @@ Pre-defined video sizes same as Youtube options. `size` will override `width` an
 - ~~Predefined video sizes~~
 - Delay load video
 
-Copyright ©2018 Tien Do.
+Copyright © 2019 Tien Do (tiendq@gmail.com).
 
 MIT License.

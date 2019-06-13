@@ -9,5 +9,7 @@
   },
   "collectCoverageFrom" : [
     "src/youtube.js"
-  ]
+  ],
+  "testURL": "http://localhost",
+  "verbose": true
 }

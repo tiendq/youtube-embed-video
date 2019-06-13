@@ -21,6 +21,11 @@ module.exports = {
     "react", // eslint-plugin-react
     "jsx-a11y" // eslint-plugin-jsx-a11y
   ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "no-unused-vars": 1
   }
