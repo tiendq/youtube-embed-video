@@ -1,7 +1,7 @@
 # YoutubeEmbedVideo
 React component to embed Youtube video on web page (`v1.2.1`).
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Tiendq/youtube-embed-video.svg)](https://greenkeeper.io/)
+[![CircleCI](https://circleci.com/gh/tiendq/youtube-embed-video.svg?style=svg)](https://circleci.com/gh/tiendq/youtube-embed-video) [![Greenkeeper badge](https://badges.greenkeeper.io/Tiendq/youtube-embed-video.svg)](https://greenkeeper.io/)
 
 ## Usage
 Simply install and import component like below code:
