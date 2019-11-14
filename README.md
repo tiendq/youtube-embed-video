@@ -1,7 +1,7 @@
 # YoutubeEmbedVideo
-React component to embed Youtube video on web page.
+React component to embed Youtube video on web page (`v1.2.1`).
 
-v1.2.1 [![Build Status](https://travis-ci.com/Tiendq/youtube-embed-video.svg?branch=master)](https://travis-ci.com/Tiendq/youtube-embed-video)[![Greenkeeper badge](https://badges.greenkeeper.io/Tiendq/youtube-embed-video.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/Tiendq/youtube-embed-video.svg)](https://greenkeeper.io/)
 
 ## Usage
 Simply install and import component like below code:
@@ -9,11 +9,11 @@ Simply install and import component like below code:
 `yarn add youtube-embed-video`
 
 ```js
-import React from "react";
-import ReactDOM from "react-dom";
-import YoutubeEmbedVideo from "youtube-embed-video";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import YoutubeEmbedVideo from 'youtube-embed-video';
 
-ReactDOM.render(<YoutubeEmbedVideo videoId="RnDC9MXSqCY" suggestions={false} />, document.getElementById("app"));
+ReactDOM.render(<YoutubeEmbedVideo videoId="RnDC9MXSqCY" suggestions={false} />, document.getElementById('app'));
 ```
 
 Above code will load a Youtube video from [LEGO® Red Can Break It Down](https://www.youtube.com/watch?v=RnDC9MXSqCY).
